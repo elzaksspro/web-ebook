@@ -38,11 +38,6 @@
             background-image: -moz-radial-gradient(10% 0, farthest-side ellipse, rgba(74,121,147,0.89), rgba(204,204,204,0.85) 80%, rgba(185,135,131,0.87) 120%);
             background-attachment: fixed, fixed;
         }
-        #search {
-            height: 200px;
-            padding: 20px 0;
-            margin-bottom: 20px;
-        }
         #container {
 
         }
@@ -136,13 +131,70 @@
         }
 
     </style>
+
+    <style>
+        #search {
+            height: 38px;
+            width: 180px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+
+        }
+
+        input {
+            outline: none;
+        }
+        /* remove the default style*/
+        input[type=search] {
+            -webkit-appearance: textfield;
+            font-family: inherit;
+            font-size: 100%;
+        }
+        input::-webkit-search-decoration,
+        input::-webkit-search-cancel-button {
+            display: none;
+        }
+
+        input[type=search] {
+            background: #ededed url(http://cdn.tsq.me/ebook/search-icon.png) no-repeat 9px center;
+            border: solid 1px #ccc;
+            padding: 9px 10px 9px 15px;
+            width: 40px;
+            color: transparent;
+            cursor: pointer;
+            border-top-right-radius: 10em;
+            border-bottom-right-radius: 10em;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            transition: all .5s;
+        }
+        input[type=search]:hover {
+            background-color: #fff;
+            width: 130px;
+            padding-left: 32px;
+            color: #34495E;
+            cursor: auto;
+            background-color: #fff;
+        }
+        input[type=search]:focus {
+            border-color: #1ABC9C;
+        }
+
+        /* placeholder */
+        input:-moz-placeholder {
+            color: transparent;
+        }
+        input::-webkit-input-placeholder {
+            color: transparent;
+        }
+    </style>
 </head>
 <body>
-<!--<div id="search"></div>-->
 <div id="container">
     <div class="wrap">
         <% for(var i=0; i<data.length; i++) {%>
-        <div title="<%= data[i].bookName%> - Click Download" class="box" data-originDlLink="<%= data[i].postSrc%>"  data-originDlLink="<%= data[i].originDlLink%>" data-originPageLink="<%= data[i].originPageLink%>" data-numberOfPages="<%= data[i].numberOfPages%>" data-datePublished="<%= data[i].datePublished%>">
+        <div title="<%= data[i].bookName%>" class="box" data-originDlLink="<%= data[i].postSrc%>"  data-originDlLink="<%= data[i].originDlLink%>" data-originPageLink="<%= data[i].originPageLink%>" data-numberOfPages="<%= data[i].numberOfPages%>" data-datePublished="<%= data[i].datePublished%>">
             <div  class="boxInner">
                 <a href="http://cdn.tsq.me/ebook/<%=data[i].customBookName%>.pdf" target="_blank"><img src="http://cdn.tsq.me/ebook/poster/<%= data[i].index%>.jpg"></a>
             </div>
@@ -150,6 +202,34 @@
         <%}%>
     </div>
 </div>
+
+<div id="search">
+    <form>
+        <input type="search" placeholder="Search" autofocus>
+    </form>
+</div>
+<script src="//cdn.tsq.me/ebook/jquery-2.1.4.min.js"></script>
+<script>
+$(function () {
+    var boxArr = $('.box');
+    $('form').submit(function (e) {
+        filter($('[type="search"]').val().toLowerCase());
+        return false;
+    });
+    function filter(val) {
+        for (var i = 0; i < boxArr.length; i++) {
+            var title = $(boxArr[i]).attr('title').toLowerCase();
+            if (title.indexOf(val) === -1) {
+                $(boxArr[i]).fadeOut('slow');
+            } else {
+                $(boxArr[i]).fadeIn('slow');
+
+            }
+        }
+    }
+
+});
+</script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
