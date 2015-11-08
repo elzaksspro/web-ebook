@@ -1,13 +1,12 @@
 {
-  "name": "test-it-books",
+  "name": "web-ebook",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ebooks about web development",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/nodemon/bin/nodemon.js ./app.js --ignore gulpfile.js"
   },
-  "author": "",
+  "author": "https://github.com/tsq",
   "license": "ISC",
   "dependencies": {
     "async": "^1.5.0",
