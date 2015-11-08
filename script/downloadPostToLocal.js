@@ -9,7 +9,7 @@ async.mapSeries(db, function (item, cb) {
   if (item.localPost) {
     cb(null);
   } else {
-    var savePath = './post/' + item.index + '.jpg';
+    var savePath = './poster/' + item.index + '.jpg';
     var writable = fs.createWriteStream(savePath);
     var readable = request(postSrc);
     readable.pipe(writable);
