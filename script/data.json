@@ -11,6 +11,17 @@
     "customBookName": "Algorithms"
   },
   {
+    "bookName": "Algorithms: Part II, 4th Edition",
+    "postSrc": "http://it-ebooks.info/images/ebooks/10/algorithms_part_ii_4th_edition.jpg",
+    "datePublished": "2014",
+    "numberOfPages": "950",
+    "originDlLink": "http://filepi.com/i/VCA4Nq9",
+    "description": "This book is Part II of the fourth edition of Robert Sedgewick and Kevin Wayne's Algorithms, the leading textbook on algorithms today, widely used in colleges and universities worldwide. Part II contains Chapters 4 through 6 of the book. The fourth edition of Algorithms surveys the most important computer algorithms currently in use and provides a full treatment of data structures and algorithms for sorting, searching, graph processing, and string processing - including fifty algorithms every programmer should know. In this edition, new Java implementations are written in an accessible modular programming style, where all of the code is exposed to the reader and ready to use.",
+    "originPageLink": "http://it-ebooks.info/book/3670",
+    "index": 3670,
+    "customBookName": "Algorithms2"
+  },
+  {
     "bookName": "AngularJS Test-driven Development",
     "postSrc": "http://it-ebooks.info/images/ebooks/14/angularjs_test-driven_development.jpg",
     "datePublished": "2015",
