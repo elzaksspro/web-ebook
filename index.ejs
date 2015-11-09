@@ -244,7 +244,7 @@
         <% for(var i=0; i<data.length; i++) {%>
         <div data-title="<%= data[i].bookName%>" class="box">
             <div  class="boxInner">
-                <a href="http://cdn.tsq.me/ebook/<%=data[i].customBookName%>.pdf" target="_blank"><img class="lazy" data-original="http://cdn.tsq.me/ebook/poster/<%= data[i].index%>.jpg" data-index="<%= data[i].index%>"></a>
+                <a href="http://cdn.tsq.me/ebook/<%=data[i].customBookName%>.pdf" target="_blank"><img class="lazy" src="http://cdn.tsq.me/ebook/poster/<%= data[i].index%>.jpg" data-index="<%= data[i].index%>"></a>
             </div>
         </div>
         <%}%>
@@ -283,17 +283,12 @@
     </div>
 </div>
 <script src="//cdn.tsq.me/ebook/jquery-2.1.4.min.js"></script>
-<script src="//cdn.tsq.me/ebook/jquery.lazyload.min.js"></script>
+<!--<script src="//cdn.tsq.me/ebook/jquery.lazyload.min.js"></script>-->
 <script>
 $(function () {
     var boxArr = $('.box');
     $('form').submit(function (e) {
         filter($('[type="search"]').val().toLowerCase());
-
-        // trick: active img lazy load
-        $("html, body").animate({ scrollTop: 0 });
-        $("html, body").animate({ scrollTop: 1 });
-        $("html, body").animate({ scrollTop: 0 });
         return false;
     });
     function filter(val) {
@@ -312,7 +307,7 @@ $(function () {
 </script>
 
 <script>
-    $("img.lazy").lazyload();
+//    $("img.lazy").lazyload();
 </script>
 
 <script>
