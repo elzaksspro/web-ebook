@@ -1,3 +1,18 @@
+<!--
+===================== preface =======================
+Hi,my name is tommy. I am from china. If you see here.
+Yeah, here. Maybe we have common interest in program.
+So email to me. I will reply you as soon as possible.
+
+
+===================== info =========================
+author: tsq
+email: tangshiqiangcn@gmail.com
+github: github.com/tsq
+
+set up time: 2015-11-08
+open source in github: https://github.com/tsq/web-ebook
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,6 +45,7 @@
     </style>
 
     <style>
+        /* background */
         body {
             margin: 0 auto;
             background-color: rgba(74,121,147,0.89);
@@ -38,20 +54,20 @@
             background-image: -moz-radial-gradient(10% 0, farthest-side ellipse, rgba(74,121,147,0.89), rgba(204,204,204,0.85) 80%, rgba(185,135,131,0.87) 120%);
             background-attachment: fixed, fixed;
         }
-        #container {
-
-        }
     </style>
 
     <style>
         /* box */
-
         .wrap {
             overflow: hidden;
         }
         .box {
             float: left;
             position: relative;
+
+            /* default value */
+            width: 10%;
+            padding-bottom: 15%;
         }
         .boxInner {
             position: absolute;
@@ -143,6 +159,7 @@
     </style>
 
     <style>
+        /* search area */
         #search {
             height: 38px;
             width: 140px;
@@ -287,16 +304,12 @@
     </div>
 </div>
 <script src="//cdn.tsq.me/ebook/jquery-2.1.4.min.js"></script>
-<!--<script src="//cdn.tsq.me/ebook/jquery.lazyload.min.js"></script>-->
-
-
 <script>
     window.map = <%-map%>;
 </script>
 
 <script>
     $(function () {
-        //    $("img.lazy").lazyload();
         var boxArr = $('.box');
         $('form').submit(function (e) {
             filter($('[type="search"]').val().toLowerCase());
@@ -316,7 +329,6 @@
         if (!('ontouchstart' in window)) {
             $('img').hover(function () {
                 var index = $(this).attr('data-index');
-                console.log("index", index);
                 var result = window.map[index];
                 $('#bookName').text(result.bookName);
                 $('#numberOfPages').text(result.numberOfPages);
