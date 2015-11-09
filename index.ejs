@@ -145,11 +145,17 @@
     <style>
         #search {
             height: 38px;
-            width: 180px;
+            width: 140px;
             position: fixed;
-            bottom: 0;
-            left: 0;
-
+            top: 0;
+            right: 0;
+            margin-right: -100px;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            transition: all .5s;
+        }
+        #search:hover {
+            margin-right: 00px;
         }
 
         input {
@@ -170,25 +176,22 @@
             background: #ededed url(http://cdn.tsq.me/ebook/search-icon.png) no-repeat 9px center;
             border: solid 1px #ccc;
             padding: 9px 10px 9px 15px;
-            width: 40px;
+            width: 140px;
             color: transparent;
             cursor: pointer;
-            border-top-right-radius: 10em;
-            border-bottom-right-radius: 10em;
-            -webkit-transition: all .5s;
-            -moz-transition: all .5s;
-            transition: all .5s;
+            border-top-left-radius: 10em;
+            border-bottom-left-radius: 10em;
+            border-right: none;
+
         }
         input[type=search]:hover {
             background-color: #fff;
-            width: 130px;
-            padding-left: 32px;
             color: #34495E;
             cursor: auto;
-            background-color: #fff;
         }
         input[type=search]:focus {
             border-color: #1ABC9C;
+            padding-left: 35px;
         }
 
         /* placeholder */
@@ -211,6 +214,8 @@
             background-color: #fff;
             display: none;
             color: #2C3E50;
+            padding: 5px;
+            border-radius: 10px;
         }
         #info .content{
             height: 100%;
@@ -318,9 +323,9 @@
                 $('#numberOfPages').text(result.numberOfPages);
                 $('#datePublished').text(result.datePublished);
                 $('#description').text(result.description);
-                $('#info').fadeIn('slow');
+                $('#info').show();
             }, function () {
-                $('#info').fadeOut(100);
+                $('#info').hide();
             });
         }
     });
