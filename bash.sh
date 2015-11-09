@@ -10,6 +10,8 @@ node downloadPostToLocal
 
 git add .
 
+git add db.json
+
 git commit -m "update data"
 
 git push
