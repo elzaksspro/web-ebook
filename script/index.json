@@ -1,308 +1,312 @@
 [
   {
-    "bookName": "AngularJS Test Driven",
+    "customeBookName": "AngularJS Test Driven",
     "index": 4827
   },
   {
-    "bookName": "Selectors Specificity and the Cascade",
+    "customeBookName": "Selectors Specificity and the Cascade",
     "index": 939
   },
   {
-    "bookName": "NGINX High Performance",
+    "customeBookName": "NGINX High Performance",
     "index": 6112
   },
   {
-    "bookName": "AngularJS Up And Running",
+    "customeBookName": "AngularJS Up And Running",
     "index": 3890
   },
   {
-    "bookName": "Pro CSS for High Traffic Websites",
+    "customeBookName": "Pro CSS for High Traffic Websites",
     "index": 5567
   },
   {
-    "bookName": "Beginning Responsive Web Design with HTML5 and CSS3",
+    "customeBookName": "Beginning Responsive Web Design with HTML5 and CSS3",
     "index": 3809
   },
 
 
   {
-    "bookName":"Pro Rest API Development with NodeJS",
+    "customeBookName":"Pro Rest API Development with NodeJS",
     "index": 5826
   },
   {
-    "bookName":"Dependency Injection with AngularJS",
+    "customeBookName":"Dependency Injection with AngularJS",
     "index": 3127
   },
   {
-    "bookName":"CSS3 Foundations",
+    "customeBookName":"CSS3 Foundations",
     "index": 3336
   },
   {
-    "bookName":"CSS Text",
+    "customeBookName":"CSS Text",
     "index": 2886
   },
   {
-    "bookName":"CSS Fonts",
+    "customeBookName":"CSS Fonts",
     "index":2568
   },
   {
-    "bookName":"CoffeeScript in Action",
+    "customeBookName":"CoffeeScript in Action",
     "index":3788
   },
   {
-    "bookName":"Learning React Native",
+    "customeBookName":"Learning React Native",
     "index":6158
   },
   {
-    "bookName":"HTML5 Canvas",
+    "customeBookName":"HTML5 Canvas",
     "index":447
   },
 
   {
-    "bookName":"ES6 Beyond",
+    "customeBookName":"ES6 Beyond",
     "index":6210
   },
   {
-    "bookName":"Extending Bootstrap",
+    "customeBookName":"Extending Bootstrap",
     "index":3512
   },
   {
-    "bookName":"High Performance Browser Networking",
+    "customeBookName":"High Performance Browser Networking",
     "index":3059
   },
   {
-    "bookName":"High Performance JavaScript",
+    "customeBookName":"High Performance JavaScript",
     "index":257
   },
   {
-    "bookName":"HTML5 Animations",
+    "customeBookName":"HTML5 Animations",
     "index":615
   },
   {
-    "bookName":"HTML5 Game Development",
+    "customeBookName":"HTML5 Game Development",
     "index":6023
   },
   {
-    "bookName":"HTML5 IN ACTION",
+    "customeBookName":"HTML5 IN ACTION",
     "index":3853
   },
 
 
   {
-    "bookName":"Begining Amazon Web Services with NodeJS",
+    "customeBookName":"Begining Amazon Web Services with NodeJS",
     "index":5625
   },
 
   {
-    "bookName":"Begining CSS3",
+    "customeBookName":"Begining CSS3",
     "index":1144
   },
 
   {
-    "bookName":"Introducing Regular Expressions",
+    "customeBookName":"Introducing Regular Expressions",
     "index":871
   },
 
   {
-    "bookName":"Javascript and jQuery the missing manual",
+    "customeBookName":"Javascript and jQuery the missing manual",
     "index":3884
   },
 
   {
-    "bookName":"HTML5 CANVAS",
+    "customeBookName":"HTML5 CANVAS",
     "index":2261
   },
 
   {
-    "bookName":"JUMP START Bootstrap",
+    "customeBookName":"JUMP START Bootstrap",
     "index":4515
   },
 
   {
-    "bookName":"Building Web Application with SVG",
+    "customeBookName":"Building Web Application with SVG",
     "index":4220
   },
 
   {
-    "bookName":"Learning Ionic",
+    "customeBookName":"Learning Ionic",
     "index":6203
   },
 
 
   {
-    "bookName":"Learning Redis",
+    "customeBookName":"Learning Redis",
     "index":6109
   },
   {
-    "bookName":"Learning Highcharts 4",
+    "customeBookName":"Learning Highcharts 4",
     "index":5642
   },
 
   {
-    "bookName":"Learning Responsive Web Design",
+    "customeBookName":"Learning Responsive Web Design",
     "index":3522
   },
 
   {
-    "bookName":"Linux Shell Scripting Cookbook 2nd Edition",
+    "customeBookName":"Linux Shell Scripting Cookbook 2nd Edition",
     "index":4133
   },
 
   {
-    "bookName":"Mastering Nginx",
+    "customeBookName":"Mastering Nginx",
     "index":4178
   },
 
   {
-    "bookName":"Mean Web Development",
+    "customeBookName":"Mean Web Development",
     "index":4849
   },
 
   {
-    "bookName":"Getting Started with MeteorJS",
+    "customeBookName":"Getting Started with MeteorJS",
     "index":6059
   },
 
 
   {
-    "bookName":"Mobile First Design with HTML5 And CSS3",
+    "customeBookName":"Mobile First Design with HTML5 And CSS3",
     "index":3159
   },
   {
-    "bookName":"MongoDB The Definitive Guide 2nd Edition",
+    "customeBookName":"MongoDB The Definitive Guide 2nd Edition",
     "index":2333
   },
   {
-    "bookName":"Values Unit and Colors",
+    "customeBookName":"Values Unit and Colors",
     "index":938
   },
   {
-    "bookName":"Nginx HTTP Server 2nd Edition",
+    "customeBookName":"Nginx HTTP Server 2nd Edition",
     "index":3110
   },
   {
-    "bookName":"Nginx Module Extension",
+    "customeBookName":"Nginx Module Extension",
     "index":3326
   },
   {
-    "bookName":"NodeJS In Practice",
+    "customeBookName":"NodeJS In Practice",
     "index":6349
   },
   {
-    "bookName":"Nodejs in Action",
+    "customeBookName":"Nodejs in Action",
     "index":3851
   },
   {
-    "bookName":"NWJS Essentials",
+    "customeBookName":"NWJS Essentials",
     "index":6062
   },
   {
-    "bookName":"Data Structures and Algorithms with JavaScript",
+    "customeBookName":"Data Structures and Algorithms with JavaScript",
     "index":3294
   },
 
 
   {
-    "bookName":"Pragmatic Guide to Subversion",
+    "customeBookName":"Pragmatic Guide to Subversion",
     "index":3419
   },
   {
-    "bookName":"Pro AngularJS",
+    "customeBookName":"Pro AngularJS",
     "index":5338
   },
   {
-    "bookName":"Pro CSS for High Traffic Websites",
+    "customeBookName":"Pro CSS for High Traffic Websites",
     "index":5567
   },
   {
-    "bookName":"Pro CSS3 Animation",
+    "customeBookName":"Pro CSS3 Animation",
     "index":5048
   },
 
 
 
   {
-    "bookName":"Pro ExpressJS",
+    "customeBookName":"Pro ExpressJS",
     "index":5468
   },
   {
-    "bookName":"Pro Git",
+    "customeBookName":"Pro Git",
     "index":5423
   },
   {
-    "bookName":"Pro JavaScript for Web Apps",
+    "customeBookName":"Pro JavaScript for Web Apps",
     "index":5588
   },
   {
-    "bookName":"Pro TypeScript",
+    "customeBookName":"Pro TypeScript",
     "index":5394
   },
   {
-    "bookName":"Pro Vim",
+    "customeBookName":"Pro Vim",
     "index":5432
   },
   {
-    "bookName":"Professional JavaScript for Web Developers",
+    "customeBookName":"Professional JavaScript for Web Developers",
     "index":483
   },
   {
-    "bookName":"Programming Chrome Apps",
+    "customeBookName":"Programming Chrome Apps",
     "index":4753
   },
   {
-    "bookName":"Restful Web API Design with NodeJS",
+    "customeBookName":"Restful Web API Design with NodeJS",
     "index":5961
   },
 
 
   {
-    "bookName":"Python for Data Analysis",
+    "customeBookName":"Python for Data Analysis",
     "index":1041
   },
   {
-    "bookName":"React Up and Running",
+    "customeBookName":"React Up and Running",
     "index":6081
   },
   {
-    "bookName":"Regular Expressions Cookbook",
+    "customeBookName":"Regular Expressions Cookbook",
     "index":920
   },
   {
-    "bookName":"CSS3 the missing manual",
+    "customeBookName":"CSS3 the missing manual",
     "index":1356
   },
   {
-    "bookName":"Sass and Compass In Action",
+    "customeBookName":"Sass and Compass In Action",
     "index":3573
   },
   {
-    "bookName":"You Donot Know JS Scope and Closures",
+    "customeBookName":"You Donot Know JS Scope and Closures",
     "index":3312
   },
   {
-    "bookName":"TextMate How",
+    "customeBookName":"TextMate How",
     "index":3941
   },
   {
-    "bookName":"Introduction to React",
+    "customeBookName":"Introduction to React",
     "index":6374
   },
 
 
   {
-    "bookName":"Think Python",
+    "customeBookName":"Think Python",
     "index":922
   },
   {
-    "bookName": "Algorithms",
+    "customeBookName": "Algorithms",
     "index": 3669
   },
   {
-    "bookName": "Algorithms2",
+    "customeBookName": "Algorithms2",
     "index": 3670
   },
   {
-    "bookName": "PhantomJS Cookbook",
+    "customeBookName": "PhantomJS Cookbook",
+    "index": 3558
+  },
+  {
+    "customeBookName": "Pro JavaScript Techniques 2nd Edition",
     "index": 3558
   }
 

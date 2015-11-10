@@ -36,14 +36,14 @@ function getBookInfo(item, cb) {
       var $ = cheerio.load(body);
       var obj = {
         bookName: $('[itemprop="name"]').text(),
-        postSrc: config.imgSrcPrefix + $('.ebook_view img').attr('src'),
+        posterSrc: config.imgSrcPrefix + $('.ebook_view img').attr('src'),
         datePublished :$('[itemprop="datePublished"]').text(),
         numberOfPages :$('[itemprop="numberOfPages"]').text(),
         originDlLink: $('[href^="http://filepi"]').attr('href'),
         description: $('[itemprop="description"]').text(),
         originPageLink: url,
         index: item.index,
-        customBookName: item.bookName,
+        customBookName: item.customeBookName,
         createTime: Date.now()
       };
       console.log('info: [' + obj.bookName + '] is ok');

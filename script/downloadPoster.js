@@ -6,17 +6,17 @@ var async = require("async");
 console.log('\nstart download poster from it-ebooks.info...');
 
 async.mapSeries(db, function (item, cb) {
-  var postSrc = item.postSrc;
-  if (item.localPost) {
+  var posterSrc = item.posterSrc;
+  if (item.localPoster) {
     cb(null);
   } else {
     var savePath = './poster/' + item.index + '.jpg';
     var writable = fs.createWriteStream(savePath);
-    var readable = request(postSrc);
+    var readable = request(posterSrc);
     readable.pipe(writable);
     writable.on('finish', function () {
       console.log('[' + item.bookName + '] is ok');
-      item.localPost = true;
+      item.localPoster = true;
       cb(null);
     });
   }
