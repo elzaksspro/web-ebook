@@ -802,5 +802,18 @@
     "index": 3670,
     "customBookName": "Algorithms2",
     "localPost": true
+  },
+  {
+    "bookName": "PhantomJS Cookbook",
+    "postSrc": "http://it-ebooks.info/images/ebooks/14/phantomjs_cookbook.jpg",
+    "datePublished": "2014",
+    "numberOfPages": "304",
+    "originDlLink": "http://filepi.com/i/jg3fP4l",
+    "description": "Beginning with the basics of PhantomJS, this book will dive into its core modules and guide you through how to solve real-world testing problems. This book explores a variety of test automation tasks, including executing JavaScript unit tests with the Jasmine, QUnit, and Mocha frameworks; functional tests with tools such as Selenium, Capybara, and CasperJS; performance analysis with tools such as YSlow; and much more.\r\n\r\nIf you are a web developer looking to run automated unit tests while you work, or perhaps you are a QA engineer looking for a fast test automation utility, then this book is perfect for you. Some prior knowledge of JavaScript would be helpful.",
+    "originPageLink": "http://it-ebooks.info/book/3558",
+    "index": 3558,
+    "customBookName": "PhantomJS Cookbook",
+    "createTime": 1447145248505,
+    "localPost": true
   }
 ]
