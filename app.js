@@ -17,7 +17,12 @@ app.listen(port, function () {
 function getMap(data) {
   var map = {};
   data.forEach(function (item) {
-    map[item.index] = item;
+    map[item.index] = {
+      bookName: item.bookName,
+      datePublished: item.datePublished,
+      numberOfPages: item.numberOfPages,
+      description: item.description.substr(0, 500) + '...'
+    };
   });
   return map;
 }
