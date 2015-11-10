@@ -26,7 +26,7 @@ async.mapLimit(db, 5, function (item, cb) {
 
 function getBookInfo(item, cb) {
   if (existIndex.indexOf(item.index) !== -1) {
-    console.log('**********************');
+    console.log('********** skip ************');
     cb(null);
   } else {
     var url = config.bookPagePrefix + item.index;
