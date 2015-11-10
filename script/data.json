@@ -826,5 +826,17 @@
     "index": 3670,
     "customBookName": "Algorithms2",
     "createTime": 1447146507347
+  },
+  {
+    "bookName": "Pro JavaScript Techniques, 2nd Edition",
+    "posterSrc": "http://it-ebooks.info/images/ebooks/6/pro_javascript_techniques_2nd_edition.jpg",
+    "datePublished": "2015",
+    "numberOfPages": "204",
+    "originDlLink": "http://filepi.com/i/nNOEB2u",
+    "description": "Pro JavaScript Techniques is the ultimate JavaScript book for today's web developer. It provides everything you need to know about modern JavaScript, and teaches you what JavaScript can do for your web sites. This book doesn't waste any time looking at things you already know, but instead concentrates on fundamental, vital topics—what modern JavaScripting is (and isn't), and pitfalls to be wary of.\r\n\r\nYou will learn about the 'this' keyword, as well as new object tools. You will be able to create reusable code with encapsulation, overloading and inheritance. The most recent techniques for debugging and testing are covered comprehensively, with information on Chrome developer tools, Jasmine, PhantomJS and Protractor. This update finishes with chapters on constructing single-page web applications that dominate the modern web.",
+    "originPageLink": "http://it-ebooks.info/book/6409",
+    "index": 6409,
+    "customBookName": "Pro JavaScript Techniques 2nd Edition",
+    "createTime": 1447147044153
   }
 ]
