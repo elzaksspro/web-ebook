@@ -3,6 +3,7 @@ var fs = require("fs");
 var db = require("../db");
 var async = require("async");
 
+console.log('\nstart download poster from it-ebooks.info...');
 
 async.mapSeries(db, function (item, cb) {
   var postSrc = item.postSrc;
@@ -22,7 +23,7 @@ async.mapSeries(db, function (item, cb) {
 }, function (err) {
   if (!err) {
     fs.writeFileSync('../db.json', JSON.stringify(db, null, 2));
-    console.log('finished!');
+    console.log('end download poster!');
   }
 });
 

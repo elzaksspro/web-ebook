@@ -2,11 +2,11 @@ git pull
 
 cd script
 
-node crawler.js
+node crawler
 
-node sync.js
+node sync
 
-node downloadPostToLocal
+node downloadPoster
 
 cd ..
 

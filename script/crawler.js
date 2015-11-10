@@ -15,18 +15,18 @@ var config = {
   imgSrcPrefix: 'http://it-ebooks.info',
   saveName: 'data.json'
 };
-
+console.log('\nstart crawling book data from it-ebooks.info...');
 async.mapLimit(db, 5, function (item, cb) {
   getBookInfo(item, cb);
 }, function () {
 
   fs.writeFileSync(config.saveName, JSON.stringify(data, null, 2));
-  console.log('Congratulation!!! data has been saved into data.json');
+  console.log('end crawling book!');
+
 });
 
 function getBookInfo(item, cb) {
   if (existIndex.indexOf(item.index) !== -1) {
-    console.log('********** skip ************');
     cb(null);
   } else {
     var url = config.bookPagePrefix + item.index;

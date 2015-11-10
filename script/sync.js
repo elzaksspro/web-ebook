@@ -3,6 +3,8 @@ var data = require("./data");
 var fs = require("fs");
 var toUpateData = [];
 
+console.log('\nstart sync book to db.json');
+
 
 for (var i = 0; i < data.length; i++) {
   var curData = data[i];
@@ -23,3 +25,5 @@ for (var i = 0; i < toUpateData.length; i++) {
   db.push(cur);
 }
 fs.writeFileSync('../db.json', JSON.stringify(db, null, 2));
+
+console.log('end sync book!');
