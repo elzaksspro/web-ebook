@@ -850,5 +850,17 @@
     "index": 6370,
     "customBookName": "Beginning Ubuntu for Windows and Mac Users",
     "createTime": 1448003898865
+  },
+  {
+    "bookName": "Physics for JavaScript Games, Animation, and Simulations",
+    "posterSrc": "http://it-ebooks.info/images/ebooks/6/physics_for_javascript_games_animation_and_simulations.jpg",
+    "datePublished": "2014",
+    "numberOfPages": "508",
+    "originDlLink": "http://filepi.com/i/yLRHYOY",
+    "description": "Have you ever wanted to include believable physical behaviors in your games and projects to give them that extra edge? Physics for JavaScript Games, Animation, and Simulations teaches you how to incorporate real physics, such as gravity, friction, and buoyancy, into your HTML5 games, animations, and simulations. It also includes more advanced topics, such as particle systems, which are essential for creating effects such as sparks or smoke. The book also addresses the key issue of balancing accuracy and simplicity in your games and simulations, and the final chapters provide you with the information and the code to make the right choice for your project.\r\n\r\nPhysics for JavaScript Games, Animation, and Simulations assumes you have a basic knowledge of JavaScript and HTML5. However, no previous knowledge of physics is required - only some very basic math skills. The authors present everything from basic principles to advanced concepts in an approachable way, so you'll be able to follow the logic and easily adapt the principles to your own applications.",
+    "originPageLink": "http://it-ebooks.info/book/3697",
+    "index": 3697,
+    "customBookName": "Physics for JavaScript Games Animation and Simulations",
+    "createTime": 1448542079930
   }
 ]
