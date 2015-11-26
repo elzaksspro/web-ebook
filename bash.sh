@@ -16,4 +16,7 @@ git commit -m "add data"
 
 git push
 
+git status
+
 pm2 restart app.js
+
