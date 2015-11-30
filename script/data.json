@@ -862,5 +862,29 @@
     "index": 3697,
     "customBookName": "Physics for JavaScript Games Animation and Simulations",
     "createTime": 1448542079930
+  },
+  {
+    "bookName": "Beginning JavaScript with DOM Scripting and Ajax, 2nd Edition",
+    "posterSrc": "http://it-ebooks.info/images/ebooks/6/beginning_javascript_with_dom_scripting_and_ajax_2nd_edition.jpg",
+    "datePublished": "2013",
+    "numberOfPages": "388",
+    "originDlLink": "http://filepi.com/i/x6dP3mu",
+    "description": "Beginning JavaScript with DOM Scripting and Ajax is an essential resource for modern JavaScript programming. This completely updated second edition covers everything you need to know to get up-to-speed with JavaScript development and add dynamic enhancements to web pages, right from the basics. As well as focusing on client-side JavaScript, you will also learn how to work with the Browser Object Model, the Document Object Model (DOM), how to use XML and JSON as well as communicate with service side scripts such as PHP.",
+    "originPageLink": "http://it-ebooks.info/book/2671",
+    "index": 2671,
+    "customBookName": "Beginning JavaScript with DOM Scripting and Ajax, 2nd Edition",
+    "createTime": 1448884096119
+  },
+  {
+    "bookName": "DOM Enlightenment",
+    "posterSrc": "http://it-ebooks.info/images/ebooks/3/dom_enlightenment.jpg",
+    "datePublished": "2013",
+    "numberOfPages": "180",
+    "originDlLink": "http://filepi.com/i/cVrBYmA",
+    "description": "With DOM Enlightenment, you'll learn how to manipulate HTML more efficiently by scripting the Document Object Model (DOM) without a DOM library. Over the past decade, developers have buried the DOM under frameworks that simplify its use. This book brings these tools back into focus, using concepts and code native to modern browsers. You'll understand the role jQuery plays in DOM scripting, and learn how to use the DOM directly in applications for mobile devices and specific browsers that require low overhead.",
+    "originPageLink": "http://it-ebooks.info/book/1849",
+    "index": 1849,
+    "customBookName": "DOM Enlightenment",
+    "createTime": 1448884096351
   }
 ]
