@@ -1,4 +1,4 @@
 # Web-ebook
-Get book info from http://it-ebooks.info/
+Get some books about web from http://it-ebooks.info/
 
 # How it work
