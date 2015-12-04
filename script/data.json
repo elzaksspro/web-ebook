@@ -886,5 +886,29 @@
     "index": 1849,
     "customBookName": "DOM Enlightenment",
     "createTime": 1448884096351
+  },
+  {
+    "bookName": "Deploying Node.js",
+    "posterSrc": "http://it-ebooks.info/images/ebooks/14/deploying_node.js.jpg",
+    "datePublished": "2015",
+    "numberOfPages": "274",
+    "originDlLink": "http://filepi.com/i/vhLQBk8",
+    "description": "Node.js is a popular choice for teams that need to design, build, test, deploy, maintain, and monitor large-scale distributed systems. Starting with a detailed overview of the Node.js architecture, this book covers topics that will help in application development, testing, deployment, and maintenance.\r\n\r\nYou will learn about concurrency, event loops, callbacks and streams. Furthermore, step-by-step instructions on deploying applications to providers such as DigitalOcean and Heroku will be provided, including information on setting up load balancers and proxies. Message queues and other techniques for managing state and session data at scale will also be covered.\r\n\r\nA series of examples on deploying your Node.js applications in production environments are provided, including a discussion on setting up continuous deployment and integration for your team. Popular tools for testing, deploying, building, and monitoring Node.js applications are covered, helping you get up and running quickly.",
+    "originPageLink": "http://it-ebooks.info/book/6025",
+    "index": 6025,
+    "customBookName": "Deploying Node.js",
+    "createTime": 1449243306763
+  },
+  {
+    "bookName": "Web Development with Jade",
+    "posterSrc": "http://it-ebooks.info/images/ebooks/14/web_development_with_jade.jpg",
+    "datePublished": "2014",
+    "numberOfPages": "80",
+    "originDlLink": "http://filepi.com/i/eTRQOHP",
+    "description": "Jade is a template engine for node.js and the default rendering engine for the Express web framework. It is a new, simplified language that compiles into HTML and is extremely useful for web developers. Jade is designed primarily for server-side templating in node.js, but it can also be used in a variety of other environments to produce XML-like documents such as HTML and RSS.\r\n\r\nThis practical, example-oriented guide will teach you how to write Jade, utilize its features, and recognize the best ways to organize templates in your projects. With this book, you will avoid the common pitfalls and issues with sparse documentation, allowing you to learn Jade faster and use it more effectively.",
+    "originPageLink": "http://it-ebooks.info/book/3357",
+    "index": 3357,
+    "customBookName": "Web Development with Jade",
+    "createTime": 1449243306808
   }
 ]
