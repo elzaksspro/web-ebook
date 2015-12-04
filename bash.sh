@@ -1,4 +1,6 @@
-cd /root/app/web-ebook/
+appPath="/root/app/web-ebook/"
+
+cd $appPath
 
 git pull
 
@@ -20,5 +22,5 @@ git push
 
 git status
 
-pm2 restart app.js
+pm2 restart $appPath"/app.js"
 
