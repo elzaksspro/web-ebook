@@ -1012,5 +1012,18 @@
     "customBookName": "Testable JavaScript",
     "createTime": 1449245828898,
     "localPoster": true
+  },
+  {
+    "bookName": "Less Web Development Essentials, 2nd Edition",
+    "posterSrc": "http://it-ebooks.info/images/ebooks/14/less_web_development_essentials_2nd_edition.jpg",
+    "datePublished": "2015",
+    "numberOfPages": "270",
+    "originDlLink": "http://filepi.com/i/bu6TrML",
+    "description": "Less is a preprocessor for CSS that uses less.js for real-time compilation, unlike other preprocessors. Building responsive websites with advanced features such as gradients and animations makes your CSS code complex. Less helps you to write clean, reusable, and maintainable CSS.\r\n\r\nStarting off with the fundamental concepts of Less and CSS, you are taken on a tour of how to improve your web development skills with Less.\r\n\r\nNext, you get to grips with mixins and variables in Less, which help you to avoid code duplication and write reusable code. Then, you venture into the concepts of nested rules, operations, and built-in functions, which help you in the dynamic creation of CSS properties and help you to create shorter and effective style sheets.",
+    "originPageLink": "http://it-ebooks.info/book/6060",
+    "index": 6060,
+    "customBookName": "Less Web Development Essentials, 2nd Edition",
+    "createTime": 1449246390688,
+    "localPoster": true
   }
 ]
