@@ -22,5 +22,5 @@ git push
 
 git status
 
-pm2 restart $appPath"/app.js"
+pm2 restart $appPath"app.js"
 
