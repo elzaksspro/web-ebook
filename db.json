@@ -999,5 +999,18 @@
     "customBookName": "Node.js By Example",
     "createTime": 1449244685493,
     "localPoster": true
+  },
+  {
+    "bookName": "Testable JavaScript",
+    "posterSrc": "http://it-ebooks.info/images/ebooks/3/testable_javascript.jpg",
+    "datePublished": "2013",
+    "numberOfPages": "274",
+    "originDlLink": "http://filepi.com/i/hhVVAET",
+    "description": "One skill that's essential for any professional JavaScript developer is the ability to write testable code. This book shows you what writing and maintaining testable JavaScript for the client- or server-side actually entails, whether you're creating a new application or rewriting legacy code.\r\n\r\nFrom methods to reduce code complexity to unit testing, code coverage, debugging, and automation, you'll learn a holistic approach for writing JavaScript code that you and your colleagues can easily fix and maintain going forward. Testing JavaScript code is complicated. This book helps you simply the process considerably.",
+    "originPageLink": "http://it-ebooks.info/book/1628",
+    "index": 1628,
+    "customBookName": "Testable JavaScript",
+    "createTime": 1449245828898,
+    "localPoster": true
   }
 ]
