@@ -1,3 +1,5 @@
+cd /root/app/web-ebook/
+
 git pull
 
 cd script
