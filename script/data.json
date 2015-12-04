@@ -910,5 +910,17 @@
     "index": 3357,
     "customBookName": "Web Development with Jade",
     "createTime": 1449243306808
+  },
+  {
+    "bookName": "Node.js By Example",
+    "posterSrc": "http://it-ebooks.info/images/ebooks/14/node.js_by_example.jpg",
+    "datePublished": "2015",
+    "numberOfPages": "220",
+    "originDlLink": "http://filepi.com/i/vNiUpUp",
+    "description": "Node.js is a JavaScript - driven technology, which means that developers can use the same language to write backend code. Its growing community and the large amount of available modules make Node.js one of the most attractive development environments.\r\n\r\nNode.js By Example covers Node.js fundamentals and teaches you how to use its technology to architect a project. It shows you how to manage an application's assets and how to implement the Model-View-Controller pattern. The next few chapters demonstrate how to develop the features of your social network. It also empowers you to communicate with a database, including storing, retrieving, and deleting data. The book ends by discussing the most popular ways to test your user interface in an efficient way.",
+    "originPageLink": "http://it-ebooks.info/book/6116",
+    "index": 6116,
+    "customBookName": "Node.js By Example",
+    "createTime": 1449244685493
   }
 ]
