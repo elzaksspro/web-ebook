@@ -946,5 +946,17 @@
     "index": 6060,
     "customBookName": "Less Web Development Essentials, 2nd Edition",
     "createTime": 1449246390688
+  },
+  {
+    "bookName": "Beginning Programming with Java For Dummies, 4th Edition",
+    "posterSrc": "http://it-ebooks.info/images/ebooks/9/beginning_programming_with_java_for_dummies_4th_edition.jpg",
+    "datePublished": "2014",
+    "numberOfPages": "480",
+    "originDlLink": "http://filepi.com/i/IreHaFv",
+    "description": "Beginning Programming with Java For Dummies, 4th Edition is a comprehensive guide to learning one of the most popular programming languages worldwide. This book covers basic development concepts and techniques through a Java lens. You'll learn what goes into a program, how to put the pieces together, how to deal with challenges, and how to make it work. The new Fourth Edition has been updated to align with Java 8, and includes new options for the latest tools and techniques.\r\n\r\nJava is the predominant language used to program Android and cloud apps, and its popularity is surging as app demand rises. Whether you're just tooling around, or embarking on a career, Beginning Programming with Java For Dummies, 4th Edition is a great place to start. Step-by-step instruction, easy-to-read language, and quick navigation make this book the perfect resource for new programmers. You'll begin with the basics before moving into code, with simple, yet detailed explanations every step of the way.",
+    "originPageLink": "http://it-ebooks.info/book/3614",
+    "index": 3614,
+    "customBookName": "Beginning Programming with Java For Dummies, 4th Edition",
+    "createTime": 1449317441273
   }
 ]
